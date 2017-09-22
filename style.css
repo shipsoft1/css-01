@@ -1,0 +1,97 @@
+
+#css-zen-garden {
+    background-image: url(background_05.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: block;
+    min-width: 500px;
+    max-width: 2000px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h3, p { 
+    text-align: center
+}
+header {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    clear: left;
+    float: left;
+}
+
+#zen-preamble {
+    border: 3px solid blue;
+    border-radius: 25px;
+    margin: 10px 10px 10px 10px;
+    width: 30%;
+    clear: right;
+    float: right;
+}
+
+#zen-supporting {
+    border: 3px solid red;
+    border-radius: 25px;
+    margin: 10px 10px 10px 10px;
+    width: 60%;
+    clear: left;
+    float: left;
+}
+
+.summary {
+	border: 3px solid yellow;
+    border-radius: 25px;
+	margin: 10px 10px 10px 10px; 
+	width: 30%; 
+	clear: right;
+	float: right;
+	}
+
+.summary a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.summary a:hover, a:active {
+    background-color: red;
+}
+
+.design-selection {
+	border: 3px solid lightblue;
+    border-radius: 25px;
+	margin: 10px 10px 10px 10px; 
+	width: 30%; 
+	clear: right;
+	float: right;  
+}
+	
+.design-archives {
+	border: 3px solid green;
+    border-radius: 25px;
+	margin: 10px 10px 10px 10px; 
+	width: 30%; 
+	clear: right;
+	float: right;   
+}
+
+.zen-resources {
+	border: 3px solid orange;
+    border-radius: 25px;
+	margin: 10px 10px 10px 10px; 
+	width: 30%; 
+	clear: right;
+	float: right;    
+}
+
+footer {
+    text-align: center;
+}
+
